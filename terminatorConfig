@@ -1,369 +1,127 @@
 [global_config]
-  window_state = hidden
-  hide_from_taskbar = True
-  title_transmit_fg_color = "#77767b"
-  inactive_color_offset = 0.6102941176470589
-  enabled_plugins = TerminalShot, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, ActivityWatch, InactivityWatch
+  window_state = maximise
+  sticky = True
+  inactive_color_offset = 0.5
+  enabled_plugins = ActivityWatch, InactivityWatch, Logger, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler
   suppress_multiple_term_dialog = True
-  title_use_system_font = False
-  title_font = JetBrains Mono 9
 [keybindings]
   copy = <Primary>c
   paste = <Primary>v
-  hide_window = F12
 [profiles]
   [[default]]
-    background_darkness = 0.76
+    background_darkness = 0.79
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = JetBrains Mono NL Semi-Bold 12
-    scrollback_infinite = True
-    disable_mousewheel_zoom = True
+    font = JetBrains Mono Italic 11
+    show_titlebar = False
     use_system_font = False
-    copy_on_selection = True
-  [[newdefault]]
-    cursor_color = "#aaaaaa"
-    font = JetBrains Mono 10
-    scrollback_infinite = True
-    use_system_font = False
-  [["Multi "]]
-    cursor_color = "#aaaaaa"
-    foreground_color = "#00ff00"
 [layouts]
   [[default]]
     [[[child0]]]
       type = Window
       parent = ""
       order = 0
-      position = 26:23
+      position = 2772:172
       maximised = False
       fullscreen = False
-      size = 2425, 1015
-      title = sachin@Blackbird-PC: ~
-      last_active_term = 950ef30c-9385-400c-9b3a-697eed637ff6
+      size = 1998, 1021
+      title = sguruswamy@sguruswamy:~
+      last_active_term = 39837056-f92b-42ce-a623-6333a00a2606
       last_active_window = True
     [[[child1]]]
       type = VPaned
       parent = child0
       order = 0
-      position = 481
-      ratio = 0.4762376237623762
+      position = 514
+      ratio = 0.5059055118110236
     [[[child2]]]
       type = HPaned
       parent = child1
       order = 0
-      position = 1617
-      ratio = 0.6681818181818182
-    [[[child3]]]
-      type = HPaned
-      parent = child2
-      order = 0
-      position = 778
-      ratio = 0.4826302729528536
-    [[[terminal4]]]
-      type = Terminal
-      parent = child3
-      order = 0
-      profile = default
-      uuid = 68307bb1-2f41-4662-88f2-1a73e87c25a5
-    [[[terminal5]]]
-      type = Terminal
-      parent = child3
-      order = 1
-      profile = default
-      uuid = a02b078e-f85a-446a-8068-08d7a362b366
-    [[[terminal6]]]
-      type = Terminal
-      parent = child2
-      order = 1
-      profile = default
-      uuid = 464c0495-8263-40ec-a4ea-df9af1089146
-    [[[child7]]]
-      type = HPaned
-      parent = child1
-      order = 1
-      position = 1617
-      ratio = 0.6681818181818182
-    [[[child8]]]
-      type = HPaned
-      parent = child7
-      order = 0
-      position = 782
-      ratio = 0.4851116625310174
-    [[[terminal9]]]
-      type = Terminal
-      parent = child8
-      order = 0
-      profile = default
-      uuid = 104c244b-b976-4b10-a456-e34a5a0df1a2
-    [[[terminal10]]]
-      type = Terminal
-      parent = child8
-      order = 1
-      profile = default
-      uuid = 950ef30c-9385-400c-9b3a-697eed637ff6
-    [[[terminal11]]]
-      type = Terminal
-      parent = child7
-      order = 1
-      profile = default
-      uuid = c946ff5c-56cf-44a6-ab9b-3bbd05d58f65
-  [[split-4]]
-    [[[child0]]]
-      type = Window
-      parent = ""
-      order = 0
-      position = 26:23
-      maximised = False
-      fullscreen = False
-      size = 1202, 753
-      title = parallels@ubuntu-linux-22-04-desktop:~
-      last_active_term = e74bbf3d-cc9e-46d8-9ca4-0b34aaafcc1c
-      last_active_window = True
-    [[[child1]]]
-      type = VPaned
-      parent = child0
-      order = 0
-      position = 395
-      ratio = 0.5280748663101604
-    [[[child2]]]
-      type = HPaned
-      parent = child1
-      order = 0
-      position = 575
-      ratio = 0.4803675856307435
+      position = 995
+      ratio = 0.4992473657802308
     [[[terminal3]]]
       type = Terminal
       parent = child2
       order = 0
       profile = default
-      uuid = 167c000e-34e7-407b-9c61-28a50e995736
+      uuid = 9a7ef9f0-e7f5-4e30-bc7c-2c91776a7506
     [[[terminal4]]]
       type = Terminal
       parent = child2
       order = 1
       profile = default
-      uuid = 6450b8c3-5b5d-4059-8093-5d6b73ac59d8
+      uuid = 39837056-f92b-42ce-a623-6333a00a2606
     [[[child5]]]
       type = HPaned
       parent = child1
       order = 1
-      position = 575
-      ratio = 0.4803675856307435
+      position = 995
+      ratio = 0.4992473657802308
     [[[terminal6]]]
       type = Terminal
       parent = child5
       order = 0
       profile = default
-      uuid = 028153c7-b586-47d8-85ee-36282c38fdf7
+      uuid = 8833ca2b-5543-4a88-b2e6-b67e3614f9fa
     [[[terminal7]]]
       type = Terminal
       parent = child5
       order = 1
       profile = default
-      uuid = e74bbf3d-cc9e-46d8-9ca4-0b34aaafcc1c
-  [[4Spilt2]]
+      uuid = b043f5e9-4322-44f9-8fa6-c71e823a06aa
+  [[4-layout]]
     [[[child0]]]
       type = Window
       parent = ""
       order = 0
-      position = 26:23
+      position = 2772:172
       maximised = False
       fullscreen = False
-      size = 1662, 1015
-      title = sachin@Blackbird-PC: ~
-      last_active_term = c946ff5c-56cf-44a6-ab9b-3bbd05d58f65
+      size = 1998, 1021
+      title = sguruswamy@sguruswamy:~
+      last_active_term = 39837056-f92b-42ce-a623-6333a00a2606
       last_active_window = True
     [[[child1]]]
       type = VPaned
       parent = child0
       order = 0
-      position = 481
-      ratio = 0.4762376237623762
+      position = 514
+      ratio = 0.5059055118110236
     [[[child2]]]
       type = HPaned
       parent = child1
       order = 0
-      position = 857
-      ratio = 0.5171997585998793
+      position = 995
+      ratio = 0.4992473657802308
     [[[terminal3]]]
       type = Terminal
       parent = child2
       order = 0
       profile = default
-      uuid = 30fee9ce-a964-48ab-aed8-a91a44ec26d9
+      uuid = 9a7ef9f0-e7f5-4e30-bc7c-2c91776a7506
     [[[terminal4]]]
       type = Terminal
       parent = child2
       order = 1
       profile = default
-      uuid = 4510b12a-5c14-48f1-853d-f7d81c1d1240
+      uuid = 39837056-f92b-42ce-a623-6333a00a2606
     [[[child5]]]
       type = HPaned
       parent = child1
       order = 1
-      position = 857
-      ratio = 0.5171997585998793
+      position = 995
+      ratio = 0.4992473657802308
     [[[terminal6]]]
       type = Terminal
       parent = child5
       order = 0
       profile = default
-      uuid = 104c244b-b976-4b10-a456-e34a5a0df1a2
+      uuid = 8833ca2b-5543-4a88-b2e6-b67e3614f9fa
     [[[terminal7]]]
       type = Terminal
       parent = child5
       order = 1
       profile = default
-      uuid = c946ff5c-56cf-44a6-ab9b-3bbd05d58f65
-  [[Multi-tab]]
-    [[[child0]]]
-      type = Window
-      parent = ""
-      order = 0
-      position = 26:23
-      maximised = False
-      fullscreen = False
-      size = 2425, 1015
-      title = sachin@Blackbird-PC: ~
-      last_active_window = True
-    [[[child1]]]
-      type = Notebook
-      parent = child0
-      order = 0
-      labels = None, None
-      last_active_term = 6cd528e7-5589-4d23-9b17-7f3b79b12a9d, 0c87bc9e-18d6-4b09-92ee-47a555941852
-      active_page = 1
-    [[[child2]]]
-      type = HPaned
-      parent = child1
-      order = 0
-      position = 799
-      ratio = 0.3304383788254756
-    [[[child3]]]
-      type = VPaned
-      parent = child2
-      order = 0
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal4]]]
-      type = Terminal
-      parent = child3
-      order = 0
-      profile = default
-      uuid = da83ef5c-8395-481c-99a7-82b4dbfee272
-    [[[terminal5]]]
-      type = Terminal
-      parent = child3
-      order = 1
-      profile = default
-      uuid = 5a6f81ef-f9d4-40a9-a5f0-ffad3c2a6123
-    [[[child6]]]
-      type = HPaned
-      parent = child2
-      order = 1
-      position = 805
-      ratio = 0.49876084262701365
-    [[[child7]]]
-      type = VPaned
-      parent = child6
-      order = 0
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal8]]]
-      type = Terminal
-      parent = child7
-      order = 0
-      profile = default
-      uuid = 8bdefe47-59d4-4ae1-a448-ebff29c040d8
-    [[[terminal9]]]
-      type = Terminal
-      parent = child7
-      order = 1
-      profile = default
-      uuid = bd67f1c4-4123-4991-9b07-2311774fdf07
-    [[[child10]]]
-      type = VPaned
-      parent = child6
-      order = 1
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal11]]]
-      type = Terminal
-      parent = child10
-      order = 0
-      profile = default
-      uuid = 4c9da97e-c968-425b-96cf-aba387730c78
-    [[[terminal12]]]
-      type = Terminal
-      parent = child10
-      order = 1
-      profile = default
-      uuid = 6cd528e7-5589-4d23-9b17-7f3b79b12a9d
-    [[[child13]]]
-      type = HPaned
-      parent = child1
-      order = 1
-      position = 810
-      ratio = 0.3349875930521092
-    [[[child14]]]
-      type = VPaned
-      parent = child13
-      order = 0
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal15]]]
-      type = Terminal
-      parent = child14
-      order = 0
-      profile = default
-      uuid = b9fb7134-3c88-4f75-8985-5a8b53aad400
-    [[[terminal16]]]
-      type = Terminal
-      parent = child14
-      order = 1
-      profile = default
-      uuid = f9890075-d160-45f4-a444-8e37de4b0353
-    [[[child17]]]
-      type = HPaned
-      parent = child13
-      order = 1
-      position = 805
-      ratio = 0.5021834061135371
-    [[[child18]]]
-      type = VPaned
-      parent = child17
-      order = 0
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal19]]]
-      type = Terminal
-      parent = child18
-      order = 0
-      profile = default
-      uuid = 0c87bc9e-18d6-4b09-92ee-47a555941852
-    [[[terminal20]]]
-      type = Terminal
-      parent = child18
-      order = 1
-      profile = default
-      uuid = a246034c-03ba-493b-9d79-578702e80afc
-    [[[child21]]]
-      type = VPaned
-      parent = child17
-      order = 1
-      position = 486
-      ratio = 0.5005149330587023
-    [[[terminal22]]]
-      type = Terminal
-      parent = child21
-      order = 0
-      profile = default
-      uuid = 87ca674a-2ca8-4b3b-90d4-406ab2c76e37
-    [[[terminal23]]]
-      type = Terminal
-      parent = child21
-      order = 1
-      profile = default
-      uuid = 2b35f0a3-df1c-494f-9cb2-d37add5dc626
+      uuid = b043f5e9-4322-44f9-8fa6-c71e823a06aa
 [plugins]
